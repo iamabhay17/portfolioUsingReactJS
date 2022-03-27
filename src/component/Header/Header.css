@@ -1,0 +1,39 @@
+header
+{
+    height: 100vh;
+    padding-top: 15%;
+    overflow: hidden;
+    
+}
+
+.header_container
+{
+    text-align: center;
+    height: 100%;
+}
+
+.cta{
+    margin-top: 2.5rem;
+    display: flex;
+    gap: 1rem;
+    justify-content: center;
+}
+
+.socials
+{
+    display: flex;
+    flex-direction:row;
+    align-items: center;
+    justify-content: center;
+    gap: 0.6rem;
+    margin-top: 3rem;
+    font-size: 1.2rem;
+}
+
+@media screen and (max-width:600px)
+{
+    header
+    {
+        padding-top: 40%;
+    }
+}
