@@ -95,11 +95,12 @@ a{
     width: max-content;
     display: inline-block;
     color: var(--color-primary);
-    padding: 0.75rem 1.2rem;
+    padding: 0.50rem 1rem;
     border-radius: 0.4rem;
     cursor: pointer;
     transition: var(--transition);
     border: 1px solid var(--color-primary);
+    
 }
 
 .btn:hover

@@ -66,6 +66,7 @@
     .portfolio__container
     {
         grid-template-columns:1fr;
+        width: var(--container-width-ms);
         
     }
     .portfolio__item

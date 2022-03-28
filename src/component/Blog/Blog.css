@@ -28,3 +28,16 @@
     border: 1px solid var(--color-primary);
 }
 
+
+@media screen and (max-width:600px)
+{
+    .blog__container
+
+    {
+        width: var(--container-width-ms);
+        font-size: 1rem;
+        padding: 2rem;
+        margin-bottom: 0;
+    }
+
+}

@@ -45,7 +45,7 @@
     background: var(--color-bg-varient);
     border: 1px solid transparent;
     border-radius: 1rem;
-    padding: 1.5rem;
+    padding: 1rem;
     text-align: center;
     transition: var(--transition);
 }
@@ -61,7 +61,7 @@
 {
     color: var(--color-primary);
     font-size: 1.4rem;
-    margin-bottom: 1rem;
+    margin-bottom: 0.4rem;
 }
 
 .about__card small
@@ -97,7 +97,7 @@
 {
   .about__me
   {
-      width: 65%;
+      width: 80%;
       margin: 0 auto 3rem;
   }
   .about__cards
@@ -108,5 +108,10 @@
   .about__content
   {
       text-align: center;
+      margin: 1rem 0;
   }
+  .about__container
+    {
+        width: var(--container-width-ms);
+    }
 }
